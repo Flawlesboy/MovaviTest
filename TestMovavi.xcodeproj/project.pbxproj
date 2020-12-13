@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAD09CA10EC543492B377A77 /* Pods_TestMovavi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461B9347DA955F3680ACCF7D /* Pods_TestMovavi.framework */; };
+		EB60BDDF25866CA600490F85 /* FilterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60BDDE25866CA600490F85 /* FilterType.swift */; };
+		EB60BDE225866CF600490F85 /* UIImage+Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB60BDE125866CF600490F85 /* UIImage+Filter.swift */; };
+		EB64736C2584F8B10044F057 /* NewsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB64736B2584F8B10044F057 /* NewsDataSource.swift */; };
+		EB647371258507770044F057 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB647370258507770044F057 /* NewsTableViewCell.swift */; };
+		EB958648258688850056D792 /* UIImageSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB958647258688850056D792 /* UIImageSettings.swift */; };
+		EBE33F8825839279002C1119 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33F8725839279002C1119 /* AppDelegate.swift */; };
+		EBE33F8C25839279002C1119 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33F8B25839279002C1119 /* NewsViewController.swift */; };
+		EBE33F8F25839279002C1119 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE33F8D25839279002C1119 /* Main.storyboard */; };
+		EBE33F912583927D002C1119 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE33F902583927D002C1119 /* Assets.xcassets */; };
+		EBE33F942583927D002C1119 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE33F922583927D002C1119 /* LaunchScreen.storyboard */; };
+		EBE33FA2258397E9002C1119 /* IRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FA1258397E9002C1119 /* IRequest.swift */; };
+		EBE33FA525839836002C1119 /* NewsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FA425839836002C1119 /* NewsRequest.swift */; };
+		EBE33FA82583A37D002C1119 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FA72583A37D002C1119 /* NewsModel.swift */; };
+		EBE33FAC2583A3B8002C1119 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FAB2583A3B8002C1119 /* NetworkManager.swift */; };
+		EBE33FB02583A3DD002C1119 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FAF2583A3DD002C1119 /* Result.swift */; };
+		EBE33FB82583FAE3002C1119 /* NewsSevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FB72583FAE3002C1119 /* NewsSevice.swift */; };
+		EBE33FBC25840124002C1119 /* NewsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FBB25840124002C1119 /* NewsPresenter.swift */; };
+		EBE33FBF2584059B002C1119 /* NewsViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FBE2584059B002C1119 /* NewsViewInput.swift */; };
+		EBE33FC3258405B2002C1119 /* NewsViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FC2258405B2002C1119 /* NewsViewOutput.swift */; };
+		EBE33FC72584320E002C1119 /* NewsAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE33FC62584320E002C1119 /* NewsAssembly.swift */; };
+		EBFB737E2586A1E00047E9DA /* ServiceAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB737D2586A1E00047E9DA /* ServiceAssembly.swift */; };
+		EBFB73822586B6160047E9DA /* CoreAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBFB73812586B6160047E9DA /* CoreAssembly.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		461B9347DA955F3680ACCF7D /* Pods_TestMovavi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestMovavi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C36407CF6DF7A936FC1E5BF3 /* Pods-TestMovavi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMovavi.debug.xcconfig"; path = "Target Support Files/Pods-TestMovavi/Pods-TestMovavi.debug.xcconfig"; sourceTree = "<group>"; };
+		CFF30296FF18E7865906D22A /* Pods-TestMovavi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestMovavi.release.xcconfig"; path = "Target Support Files/Pods-TestMovavi/Pods-TestMovavi.release.xcconfig"; sourceTree = "<group>"; };
+		EB60BDDE25866CA600490F85 /* FilterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterType.swift; sourceTree = "<group>"; };
+		EB60BDE125866CF600490F85 /* UIImage+Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Filter.swift"; sourceTree = "<group>"; };
+		EB64736B2584F8B10044F057 /* NewsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDataSource.swift; sourceTree = "<group>"; };
+		EB647370258507770044F057 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		EB958647258688850056D792 /* UIImageSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageSettings.swift; sourceTree = "<group>"; };
+		EBE33F8425839279002C1119 /* TestMovavi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestMovavi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE33F8725839279002C1119 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EBE33F8B25839279002C1119 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		EBE33F8E25839279002C1119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBE33F902583927D002C1119 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE33F932583927D002C1119 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBE33F952583927D002C1119 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE33FA1258397E9002C1119 /* IRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRequest.swift; sourceTree = "<group>"; };
+		EBE33FA425839836002C1119 /* NewsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRequest.swift; sourceTree = "<group>"; };
+		EBE33FA72583A37D002C1119 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		EBE33FAB2583A3B8002C1119 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		EBE33FAF2583A3DD002C1119 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		EBE33FB72583FAE3002C1119 /* NewsSevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSevice.swift; sourceTree = "<group>"; };
+		EBE33FBB25840124002C1119 /* NewsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPresenter.swift; sourceTree = "<group>"; };
+		EBE33FBE2584059B002C1119 /* NewsViewInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewInput.swift; sourceTree = "<group>"; };
+		EBE33FC2258405B2002C1119 /* NewsViewOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewOutput.swift; sourceTree = "<group>"; };
+		EBE33FC62584320E002C1119 /* NewsAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAssembly.swift; sourceTree = "<group>"; };
+		EBFB737D2586A1E00047E9DA /* ServiceAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceAssembly.swift; sourceTree = "<group>"; };
+		EBFB73812586B6160047E9DA /* CoreAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAssembly.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE33F8125839279002C1119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAD09CA10EC543492B377A77 /* Pods_TestMovavi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D3CA53463377C8EF9E8216E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C36407CF6DF7A936FC1E5BF3 /* Pods-TestMovavi.debug.xcconfig */,
+				CFF30296FF18E7865906D22A /* Pods-TestMovavi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C2891259D9FA0C625859DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				461B9347DA955F3680ACCF7D /* Pods_TestMovavi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB60BDDD25866C8200490F85 /* UIFilter */ = {
+			isa = PBXGroup;
+			children = (
+				EB958647258688850056D792 /* UIImageSettings.swift */,
+				EB60BDDE25866CA600490F85 /* FilterType.swift */,
+				EB60BDE125866CF600490F85 /* UIImage+Filter.swift */,
+			);
+			path = UIFilter;
+			sourceTree = "<group>";
+		};
+		EB64736A2584F8860044F057 /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				EB64736F2584FF950044F057 /* Cell */,
+				EB64736B2584F8B10044F057 /* NewsDataSource.swift */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		EB64736F2584FF950044F057 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EB647370258507770044F057 /* NewsTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EBE33F7B25839279002C1119 = {
+			isa = PBXGroup;
+			children = (
+				EBE33F8625839279002C1119 /* TestMovavi */,
+				EBE33F8525839279002C1119 /* Products */,
+				2D3CA53463377C8EF9E8216E /* Pods */,
+				6C2891259D9FA0C625859DE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE33F8525839279002C1119 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33F8425839279002C1119 /* TestMovavi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE33F8625839279002C1119 /* TestMovavi */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33F8725839279002C1119 /* AppDelegate.swift */,
+				EBFB73782586A04A0047E9DA /* PresentationLayer */,
+				EBFB73792586A0850047E9DA /* ServiceLayer */,
+				EBFB737A2586A08F0047E9DA /* CoreLayer */,
+				EBE33F8D25839279002C1119 /* Main.storyboard */,
+				EBE33F902583927D002C1119 /* Assets.xcassets */,
+				EBE33F922583927D002C1119 /* LaunchScreen.storyboard */,
+				EBE33F952583927D002C1119 /* Info.plist */,
+			);
+			path = TestMovavi;
+			sourceTree = "<group>";
+		};
+		EBE33F9C25839750002C1119 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33FC5258431E3002C1119 /* Assembly */,
+				EBE33F9F25839783002C1119 /* Model */,
+				EBE33F9E25839775002C1119 /* Presenter */,
+				EBE33F9D2583976B002C1119 /* View */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		EBE33F9D2583976B002C1119 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB60BDDD25866C8200490F85 /* UIFilter */,
+				EB64736A2584F8860044F057 /* DataSource */,
+				EBE33F8B25839279002C1119 /* NewsViewController.swift */,
+				EBE33FBE2584059B002C1119 /* NewsViewInput.swift */,
+				EBE33FC2258405B2002C1119 /* NewsViewOutput.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EBE33F9E25839775002C1119 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33FBB25840124002C1119 /* NewsPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EBE33F9F25839783002C1119 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33FA72583A37D002C1119 /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBE33FA0258397CD002C1119 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33FA1258397E9002C1119 /* IRequest.swift */,
+				EBE33FA425839836002C1119 /* NewsRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		EBE33FAA2583A39E002C1119 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33FAB2583A3B8002C1119 /* NetworkManager.swift */,
+				EBE33FAF2583A3DD002C1119 /* Result.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		EBE33FB62583FAB3002C1119 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33FB72583FAE3002C1119 /* NewsSevice.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EBE33FC5258431E3002C1119 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33FC62584320E002C1119 /* NewsAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		EBFB73782586A04A0047E9DA /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EBE33F9C25839750002C1119 /* Module */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		EBFB73792586A0850047E9DA /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB737C2586A1CA0047E9DA /* Assembly */,
+				EBE33FB62583FAB3002C1119 /* Services */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
+		EBFB737A2586A08F0047E9DA /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB73802586B5AC0047E9DA /* Assembly */,
+				EBE33FAA2583A39E002C1119 /* NetworkManager */,
+				EBE33FA0258397CD002C1119 /* Request */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		EBFB737C2586A1CA0047E9DA /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB737D2586A1E00047E9DA /* ServiceAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		EBFB73802586B5AC0047E9DA /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				EBFB73812586B6160047E9DA /* CoreAssembly.swift */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE33F8325839279002C1119 /* TestMovavi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE33F982583927D002C1119 /* Build configuration list for PBXNativeTarget "TestMovavi" */;
+			buildPhases = (
+				2FDA53A1B7FBE768B97F30E2 /* [CP] Check Pods Manifest.lock */,
+				EBE33F8025839279002C1119 /* Sources */,
+				EBE33F8125839279002C1119 /* Frameworks */,
+				EBE33F8225839279002C1119 /* Resources */,
+				91A915E3585FF84D2C7AE40C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestMovavi;
+			productName = TestMovavi;
+			productReference = EBE33F8425839279002C1119 /* TestMovavi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE33F7C25839279002C1119 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					EBE33F8325839279002C1119 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = EBE33F7F25839279002C1119 /* Build configuration list for PBXProject "TestMovavi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE33F7B25839279002C1119;
+			productRefGroup = EBE33F8525839279002C1119 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE33F8325839279002C1119 /* TestMovavi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE33F8225839279002C1119 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE33F942583927D002C1119 /* LaunchScreen.storyboard in Resources */,
+				EBE33F912583927D002C1119 /* Assets.xcassets in Resources */,
+				EBE33F8F25839279002C1119 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FDA53A1B7FBE768B97F30E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestMovavi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91A915E3585FF84D2C7AE40C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestMovavi/Pods-TestMovavi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestMovavi/Pods-TestMovavi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestMovavi/Pods-TestMovavi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE33F8025839279002C1119 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE33FBF2584059B002C1119 /* NewsViewInput.swift in Sources */,
+				EBE33FA82583A37D002C1119 /* NewsModel.swift in Sources */,
+				EBE33F8C25839279002C1119 /* NewsViewController.swift in Sources */,
+				EBFB737E2586A1E00047E9DA /* ServiceAssembly.swift in Sources */,
+				EB60BDE225866CF600490F85 /* UIImage+Filter.swift in Sources */,
+				EBE33F8825839279002C1119 /* AppDelegate.swift in Sources */,
+				EBE33FC3258405B2002C1119 /* NewsViewOutput.swift in Sources */,
+				EB60BDDF25866CA600490F85 /* FilterType.swift in Sources */,
+				EBFB73822586B6160047E9DA /* CoreAssembly.swift in Sources */,
+				EB64736C2584F8B10044F057 /* NewsDataSource.swift in Sources */,
+				EBE33FAC2583A3B8002C1119 /* NetworkManager.swift in Sources */,
+				EBE33FC72584320E002C1119 /* NewsAssembly.swift in Sources */,
+				EB958648258688850056D792 /* UIImageSettings.swift in Sources */,
+				EB647371258507770044F057 /* NewsTableViewCell.swift in Sources */,
+				EBE33FA525839836002C1119 /* NewsRequest.swift in Sources */,
+				EBE33FB82583FAE3002C1119 /* NewsSevice.swift in Sources */,
+				EBE33FBC25840124002C1119 /* NewsPresenter.swift in Sources */,
+				EBE33FB02583A3DD002C1119 /* Result.swift in Sources */,
+				EBE33FA2258397E9002C1119 /* IRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBE33F8D25839279002C1119 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE33F8E25839279002C1119 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE33F922583927D002C1119 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE33F932583927D002C1119 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBE33F962583927D002C1119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBE33F972583927D002C1119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE33F992583927D002C1119 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C36407CF6DF7A936FC1E5BF3 /* Pods-TestMovavi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M6JDTKFW3;
+				INFOPLIST_FILE = TestMovavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = z.TestMovavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBE33F9A2583927D002C1119 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF30296FF18E7865906D22A /* Pods-TestMovavi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9M6JDTKFW3;
+				INFOPLIST_FILE = TestMovavi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = z.TestMovavi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE33F7F25839279002C1119 /* Build configuration list for PBXProject "TestMovavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE33F962583927D002C1119 /* Debug */,
+				EBE33F972583927D002C1119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE33F982583927D002C1119 /* Build configuration list for PBXNativeTarget "TestMovavi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE33F992583927D002C1119 /* Debug */,
+				EBE33F9A2583927D002C1119 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBE33F7C25839279002C1119 /* Project object */;
+}

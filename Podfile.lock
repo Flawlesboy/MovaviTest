@@ -1,0 +1,22 @@
+PODS:
+  - Kingfisher (5.15.0):
+    - Kingfisher/Core (= 5.15.0)
+  - Kingfisher/Core (5.15.0)
+  - XMLCoder (0.11.1)
+
+DEPENDENCIES:
+  - Kingfisher
+  - XMLCoder (~> 0.11.1)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - XMLCoder
+
+SPEC CHECKSUMS:
+  Kingfisher: 1acb67597a520c2d0310677e66d6e0af455ef757
+  XMLCoder: c4638336674de7ba279cd23f2005817d69f538e0
+
+PODFILE CHECKSUM: 164d762e337f3dbaa044acb1aa466cb258fcdc5f
+
+COCOAPODS: 1.8.4
