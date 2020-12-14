@@ -15,15 +15,13 @@ extension UIImage {
             return self
         }
         
-        let filter = CIFilter(name: filter.rawValue)
-        // convert UIImage to CIImage and set as input
+        let filter = CIFilter(name: filter.rawValue)        
         let ciInput = CIImage(image: self)
-        filter?.setValue(ciInput, forKey: "inputImage")
-        // get output CIImage, render as CGImage first to retain proper UIImage scale
+        filter?.setValue(ciInput, forKey: "inputImage")        
         let ciOutput = filter?.outputImage
         let ciContext = CIContext()
         let cgImage = ciContext.createCGImage(ciOutput!, from: (ciOutput?.extent)!)
-        //Return the image
+        
         return UIImage(cgImage: cgImage!)
     }
 }
